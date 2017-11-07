@@ -1,0 +1,21 @@
+<app-component1></app-component1>
+<app-component2></app-component2>
+<app-component1></app-component1>
+  
+{{title}}
+
+{{myNumber}}
+
+<input type="button" value="Random Number" (click)="RandomNumber()">
+<input type="text" name="" id="" [(ngModel)]="myNumber">
+
+<br><br><br>
+Angka 1: <input type="number" name="" id="" [(ngModel)]="myNumber1"><br><br>
+Angka 2: <input type="number" name="" id="" [(ngModel)]="myNumber2"><br>
+<br>
+<input type="button" value="+" (click)="fAddition()">
+<input type="button" value="-" (click)="fDeduction()">
+<input type="button" value="x" (click)="fMultiply()">
+<input type="button" value=":" (click)="fDivision()">
+<br><br>
+Hasil: <input type="number" name="" id="" [(ngModel)]="result">

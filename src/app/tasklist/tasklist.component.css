@@ -1,0 +1,25 @@
+.card{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card-body{
+    margin: 25px;
+}
+
+.btn{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.btn-primary{
+    color: black;
+    background-color:white;
+    border: 1px solid lightgrey;
+}
+
+th{
+    background-color:ghostwhite;
+}
